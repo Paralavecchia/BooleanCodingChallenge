@@ -1,0 +1,161 @@
+/** CSS RESET **/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    width: 100%;
+    height: 100%;
+}
+
+body{
+    /** Font **/
+    font-family: Inter, sans-serif;
+
+    /** border: 5px solid blue; **/
+
+    width: 100%;
+    height: 100%;
+
+    /** Immagine di backgroud **/
+    background-image: url('/MaterialeEsercizioLim/background.jpg');
+    background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+}
+
+.flex_menu_box{
+    /** border: 5px solid red; **/
+    padding-top: 40px;
+    width: 100%;
+    height: 100%;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items:flex-start;
+}
+
+.menu_box{
+    width: 62%;
+    height: 92%;
+    /** border: 5px solid red; **/
+    padding-left: 30px;
+    padding-right: 30px;
+
+    background-color: rgba(0, 0, 0, 0.5);
+	color: white;
+
+	border-radius: 20px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content:space-evenly;
+    align-items: center;
+}
+
+.contenitore_logo{
+    width: 22%;
+    height: 15%;
+
+    /** border: 3px solid green; **/
+}
+
+.logo{
+    width: 100%;
+    height: 100%;
+}
+
+.flex_TitoloFunzioni{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+    gap: 2px;
+
+    /** border: 3px solid green; **/
+    width: 85%;
+    height: 12%;
+}
+
+.Titolo{
+    color: rgb(0,221,0);
+
+    font-size: 25px;
+    font-weight: 500;
+}
+
+.Pannello{
+    height: 30px;
+    width: 100%;
+
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    align-items: center;
+    gap: 10px;
+
+
+    background-color: rgb(0,221,0);
+}
+
+button{
+    height: 60%;
+
+    padding: 1px 5px 1px 5px;
+
+    text-align: center;
+    font-size: 10px;
+}
+
+.Lista{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+
+    height: 58%;
+    width: 85%;
+
+    /** border: 3px solid green; **/
+}
+
+.monopattino{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 24%;
+
+    /** border: 3px solid yellow; **/
+}
+
+.nome_monopattino{
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.descrizione{
+    font-size: 12px;
+}
+
+.progressbar {
+	height: 27%;
+	border-radius: 5px;
+
+}
+
+.pgbar-orange {
+    width: 40%;
+	background-color: rgb(245,180,83);
+}
+
+.pgbar-green {
+    width: 65%;
+	background-color: rgb(30,195,30);
+}
+
+.pgbar-red {
+    width: 25%;
+	background-color: rgb(190,65,65);
+}
